@@ -1,0 +1,21 @@
+{
+  "name": "kfosoft/yii2-crontab",
+  "description": "Yii2 Crontab",
+  "license": "MIT",
+  "keywords": ["yii2", "extension", "crontab"],
+  "type": "yii2-extention",
+  "authors": [
+    {
+      "name": "Kyrylo Checherskyi",
+      "email": "kyrylo.checherskyi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "kfosoft/yii2-daemon": "20.09",
+    "kfosoft/cron-expression": "20.10"
+  },
+  "autoload": {
+    "psr-4": {"kfosoft\\cron\\": ""}
+  }
+}
